@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""rota_inteligente.py
-
-Projeto: Rota Inteligente — Parte Prática para o trabalho de AI Fundamentals.
-Arquivo único em Português que gera um grafo sintético, agrupa entregas com K-Means,
-calcula rotas por cluster usando uma heurística greedy (vizinho mais próximo) e A*
-para caminhos entre nós. Salva CSVs e imagens necessárias para a entrega.
-
-Saídas geradas:
-- data/nodes.csv: nós do grafo (id, x, y)
-- data/edges.csv: arestas do grafo (a, b, peso)
-- data/deliveries.csv: lista de entregas (id, x, y)
-- outputs/graph_model.png: diagrama do grafo (modelo)
-- outputs/clusters.png: visualização dos clusters
-- outputs/routes.png: visualização das rotas por cluster
-- outputs/routes_summary.csv: resumo das rotas por cluster
-"""
-
 import os
 import math
 import random
